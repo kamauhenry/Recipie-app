@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Django-Community-Forum-Website",
+			"path": "../Django-Community-Forum-Website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Recipie app",
+		"liveServer.settings.port": 5501
+	}
+}
