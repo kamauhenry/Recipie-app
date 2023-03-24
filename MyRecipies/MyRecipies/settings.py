@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'MyRecipies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':"HENRY",
-    }
+        'NAME'  :'myrecipiedb' ,
+        'USER' :   'root' ,
+        'PASSWORD': 'euginekamau',
+        'PORT': 3306 ,       
+        'HOST' : '127.0.0.1',
+         }
 }
 
 
