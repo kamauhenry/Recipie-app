@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-21)f8vt0qzzt$1*oe0c(w3l3nc=ejypc-w!51)sdk7nfkkgi0u'
+SECRET_KEY = 'django-insecure-_pfw_r#3j!+ebte+qkakfzhn&_d*=+fx*p*y_l-prf5^4%lto^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'MyRecipies.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME'  :'myrecipiedb' ,
-        'USER' :   'root' ,
+        'NAME': 'myrecipiedb',
+        'USER': 'root',
         'PASSWORD': 'euginekamau',
-        'PORT': 3306 ,       
-        'HOST' : '127.0.0.1',
-         }
+        'PORT': 3306,
+        'HOST': '127.0.0.1',
+    }
 }
 
 
